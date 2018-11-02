@@ -1,0 +1,56 @@
+<mat-toolbar class="justify-content-end custam-mat-toolbar px-3">
+  <div class="logo">
+  	<a href="/"><img src="assets/images/logo.png" alt="pointclub-logo"></a>
+  </div>
+  <div class="ml-auto"> 
+	 		<div class="pc-navbar-nav">
+				<mat-nav-list class="layout-row align-items-center">
+					<div class="nav-item">
+				  	<a mat-list-item href="#" class="nav-link active"><span class="nav-text">PointBank</span> </a>
+				  	<div class="nav-action text-blue-400">
+				  		<div class="w-900 display-4">3,175</div>
+				  		<div class="w-400 font-11">points approved</div>
+				  	</div>
+				  </div>
+				  <div class="nav-item">
+				  	<a mat-list-item href="#" class="nav-link"><span class="nav-text">Profile Gym</span></a>
+				  	<div class="nav-action text-blue-400">
+				  		<div class="w-900 display-4">15,250</div>
+				  		<div class="w-400 font-11">pts available</div> 
+				  	</div>
+				   </div>
+				  <div class="nav-item">
+				  	<a mat-list-item href="#" class="nav-link"><span class="nav-text">Surveys</span>  </a>
+				  	<div class="nav-action text-blue-400">
+				  		<div class="w-900 display-4">15,250</div>
+				  		<div class="w-400 font-11">pts available</div> 
+				  	</div>
+				   </div>
+				  <div class="nav-item">
+				  	<a mat-list-item href="#" class="nav-link"><span class="nav-text">CHARGING</span>  </a>
+				  	<div class="nav-action text-blue-400">
+				  		<div class="w-900 display-4">27</div>
+				  		<div class="w-400 font-11">new videos for you</div> 
+				  	</div>
+				   </div>
+				  <div class="nav-item">
+				  	<a mat-list-item href="#" class="nav-link"><span class="nav-text">COMMUNITIES</span></a>
+				  	<div class="nav-action text-blue-400">
+				  		<div class="w-900 display-4">3</div>
+				  		<div class="w-400 font-11">quizzes available</div> 
+				  	</div>
+				  </div> 
+					<button mat-icon-button [matMenuTriggerFor]="menu" class="ml-8 btn-setting">
+				    <mat-icon>settings</mat-icon>
+				  </button>
+				  <mat-menu #menu="matMenu">
+					    <button mat-menu-item>
+						    <mat-icon>lock_open</mat-icon>
+						    <span>Log Out</span>
+						  </button>
+					</mat-menu>
+				</mat-nav-list>
+			</div>
+	</div>
+</mat-toolbar>
+ 

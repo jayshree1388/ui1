@@ -1,0 +1,29 @@
+.mat-list-item,
+.mat-toolbar, .mat-toolbar h1, .mat-toolbar h2, .mat-toolbar h3, .mat-toolbar h4, .mat-toolbar h5, .mat-toolbar h6{
+	font-family: 'Lato', sans-serif !important;
+}
+.navbar-nav{ 
+	&.mat-nav-list{
+		.mat-list-item{
+			text-decoration: none; 
+	 		color: #334d5c;
+	 		border-radius: 4px;
+	 		transition: all ease-in-out 0.5s;
+	 		margin: 0 8px;
+	 		text-transform: uppercase;
+	 		font-size: 12px;
+	 		font-weight: 900;
+	 		letter-spacing: 1px;
+			&:hover{
+				background-color: rgba(52, 78, 93, 0.20);
+				box-shadow: 0 3px 3px -2px rgba(0, 0, 0, .2), 0 3px 4px 0 rgba(0, 0, 0, .14), 0 1px 8px 0 rgba(0, 0, 0, .12)
+			}
+			&.active{
+					background-color: #8070ea;
+					color: #fff; 
+					box-shadow: 0 3px 3px -2px rgba(0, 0, 0, .2), 0 3px 4px 0 rgba(0, 0, 0, .14), 0 1px 8px 0 rgba(0, 0, 0, .12)
+			}
+		}
+	}  
+}
+

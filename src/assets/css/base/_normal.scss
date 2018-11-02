@@ -1,0 +1,67 @@
+*{
+	margin: 0px;
+	padding: 0px; 
+}
+html, body{  
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;  
+	position: relative; 
+}
+body{  
+  font-family: 'Lato', sans-serif;
+  font-size: 14px; 
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: url(./assets/images/body-bg.jpg) no-repeat right top $gray-100;
+  font-weight: 400;
+  background-size: cover;
+}
+.container{
+  max-width: 1350px;
+  margin: 0 auto;
+}
+app-root,
+.h-100 {
+    height: 100% !important;
+}
+.w-100{
+	width: 100% !important;
+}
+
+.text-center{
+	text-align: center !important;
+}
+.text-left{
+	text-align: left !important;
+}
+.text-right{
+	text-align: right !important;
+}
+.text-uppercase{
+	text-transform: uppercase !important;
+}
+.scrolly-view{
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+  overflow-x: hidden; 
+  &::-webkit-scrollbar{
+    height: 18px;
+    width: 9px;
+    background: $gray-300;
+    -webkit-border-radius: 2ex;
+  }
+  &::-webkit-scrollbar-thumb{
+    background: $gray-300;
+    border-radius: 2ex;
+    -webkit-border-radius: 2ex;
+    border: solid whiteSmoke 2px;
+  }
+  &::-webkit-scrollbar-corner{
+    background: $gray-100;
+  }
+}
+.overflow-y{
+  @extend .scrolly-view;
+}

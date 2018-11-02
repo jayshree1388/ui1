@@ -1,0 +1,28 @@
+.pagination-nav{
+	  .elle-item{
+    	padding-left: 15px;
+    	padding-right: 15px;
+    	line-height: 30px; 
+    }
+	.page-link{
+		margin-left: 3px;
+		margin-right: 3px;
+		font-size: 10px;
+		font-weight: 300;
+		&.mat-icon-button{
+			width: 30px;
+	    height: 30px; 
+	    line-height: 30px;
+		} 
+		&:hover{
+			background-color: rgba(52, 78, 93, 0.20);
+		}
+		&.active{
+			font-weight: 900;
+			background-color: #8070ea;
+			color: #fff; 
+			box-shadow: 0 3px 3px -2px rgba(0, 0, 0, .2), 0 3px 4px 0 rgba(0, 0, 0, .14), 0 1px 8px 0 rgba(0, 0, 0, .12)
+		}
+	}
+ 
+}
